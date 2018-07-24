@@ -43,7 +43,7 @@ section.cover {
     }
 }
 
-.cover.btn {   
+.cover.btn {
     background-color: #fbbd08;
     border-color: #fbbd08;
     padding-top: 10px;
@@ -87,7 +87,7 @@ section h2.section-heading {
     margin-bottom: 32px;
 }
 section h3.section-subheading {
-    margin-bottom: 24px;   
+    margin-bottom: 24px;
 }
 
 .center-cropped {
@@ -134,7 +134,7 @@ section h3.section-subheading {
 }
 
 
-#information thead {    
+#information thead {
     background-color: #fbbd08;
 }
 .table thead th {
@@ -147,4 +147,13 @@ section h3.section-subheading {
     border-bottom: 1px solid #dee2e6;
 }
 
-
+ol {
+  counter-reset: item
+}
+li {
+  display: block
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
