@@ -119,7 +119,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {

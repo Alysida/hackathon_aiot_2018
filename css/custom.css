@@ -21,6 +21,10 @@ section.cover {
     padding-top: 0;
 }
 
+section{
+  background-color: #fbbd08;
+}
+
 #cover-title {
     font-family: "Lato,'Helvetica Neue',Arial,Helvetica,sans-serif";
     color: #424242;
@@ -119,9 +123,20 @@ section h3.section-subheading {
 .sponsor p.title {
 }
 
+#attention ol {
+  counter-reset: item;
+  margin-bottom: 4px;
+}
 
-#attention ol li {
+#attention li {
+    display: block;
     margin-bottom: 4px;
+}
+
+#attention li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+  margin-bottom: 4px;
 }
 
 #information .info-item {
@@ -145,15 +160,4 @@ section h3.section-subheading {
 #information td {
     border: none;
     border-bottom: 1px solid #dee2e6;
-}
-
-ol {
-  counter-reset: item
-}
-li {
-  display: block
-}
-li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item
 }
