@@ -169,12 +169,17 @@ section.cover {
 }
 
 .cover.btn {
-    background-color: #fbbd08;
-    border-color: #fbbd08;
+    background-color: #e8c222;
+    border-color: #b99d26;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.btn-primary:active, 
+.btn-primary:focus, 
+.btn-primary:hover {
+    background-color: #fe9c10 !important;
+    border-color: #e8c222 !important;
+}
 .pulse {
     cursor: pointer;
     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
@@ -189,7 +194,7 @@ section.cover {
         -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
     }
     100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(169, 77, 0, 0.4);
     }
   }
   @keyframes pulse {
@@ -202,8 +207,8 @@ section.cover {
         box-shadow: 0 0 0 10px rgba(204,169,44, 0);
     }
     100% {
-        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(169, 77, 0, 0.4);
+        box-shadow: 0 0 0 0 rgba(169, 77, 0, 0.4);
     }
   }
 /* for pulse --- end */
