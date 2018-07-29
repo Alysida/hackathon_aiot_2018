@@ -50,20 +50,12 @@
   var lastScrollTop =0;
   $(window).scroll(function () {
       var st = $(this).scrollTop();
-      if (st > lastScrollTop){
-          // downscroll code
+      if(st==0 || st <= lastScrollTop) { //on top or  downscroll 
+        $('#mainNav').slideDown();
+      } else {  // upscroll code
         $('#mainNav').slideUp();
-      } else {
-          // upscroll code
-          $('#mainNav').slideDown();
       }
       lastScrollTop = st;
-
-    
-    // if ($(this).scrollTop() == 0) {
-    //     $('#mainNav').show();
-    // } else {
-    //   $('#mainNav').hide();
-    // }
   });
+  
 })(jQuery); // End of use strict
