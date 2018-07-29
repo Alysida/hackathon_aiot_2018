@@ -1,50 +1,171 @@
 
+section{
+    background: rgb(249, 208,33);
+}
+div {
+    background: rgb(249, 208,33);
+}
+
+
+
+#mainNav .navbar-nav .nav-item .nav-link,
+#mainNav .navbar-brand {
+    color: #424242;
+}
+#mainNav .navbar-brand.active, 
+#mainNav .navbar-brand:active, 
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, 
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+#mainNav .navbar-toggler {
+    color: #424242;
+}
+
 #mainNav {
-    background-color: #212529;
+    background-color: rgb(249, 208,33);
     padding-top: 8px;
     padding-bottom: 8px;
 }
 @media (min-width: 992px)  {
-    #mainNav{
+    #mainNav, 
+    #mainNav.navbar-shrink{
         padding-top: 0px;
         padding-bottom: 0px;
-
-    }
+        background-color: rgb(249, 208,33);
+    } 
 }
 
 #mainNav .navbar-toggler {
-    background-color: #212529;
+    background-color: rgb(249, 208,33);
     font-size: 14px;
+}
+
+.padding-left-right-20-percent {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.margin-left-right-20-percent {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.header div.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    text-align: center;    
+    padding-bottom: 30px;
+}
+
+div.header div.title p {
+    color: #424242;
+    margin: 0;
+    line-height: 1.2em;
+}
+div.header div.title p.line1,
+div.header div.title p.line2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+div.header div.title p.line3 {
+    font-size: 46px;
+    font-weight: 600;
+}
+div.header div.title p.last-line {
+    border-bottom: solid 1px;
+}
+div.header .img-card p.first-line{
+    font-size: 32px;
+}
+div.img-card {
+    color: white;
+    background-image: url("../img/card.png"); 
+    background-color: rgb(249, 208,33); 
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-left: 4px;
+}
+div.img-card p{
+    margin: 0;  
+    line-height: 1.4em;
 }
 
 section.cover {
     padding-top: 0;
+    padding-bottom: 20px;
 }
+#cover-logo{
 
-section{
-  background-color: #fbbd08;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cover-title {
-    font-family: "Lato,'Helvetica Neue',Arial,Helvetica,sans-serif";
+    /* font-family: "Lato,'Helvetica Neue',Arial,Helvetica,sans-serif"; */
     color: #424242;
-    font-size: 72px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2857em;
     text-transform: none;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media(max-width:768px) {
     #cover-title {
-        font-size: 54px;
+        font-size: 30px;
+    }
+    #logo-text {
+        display: block;
     }
 }
 @media (max-width: 576px) {
+    #logo-text {
+        display: none;
+    }
     #cover-title {
+        font-size: 17px;
+    }
+    div.header div.title p.line1,
+    div.header div.title p.line2 {
         font-size: 26px;
     }
+    div.header div.img-card {
+        font-size: 17px;
+        min-width: 200px;   
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    div.header div.title p.line3 {
+        font-size: 29px;
+    }
+    div.header .img-card p.first-line {
+        font-size: 25px;
+    }    
 }
 
 .cover.btn {
@@ -87,8 +208,16 @@ section{
   }
 /* for pulse --- end */
 
+.into-imgs div.img {
+    margin-bottom: 12px;
+}
+.into-imgs img {
+    width: 100%;
+}
+
 section h2.section-heading {
     margin-bottom: 32px;
+    font-size: 35px;
 }
 section h3.section-subheading {
     margin-bottom: 24px;
@@ -101,6 +230,28 @@ section h3.section-subheading {
     background-repeat: no-repeat;
 }
 
+#sponsor div.sponsor,
+#judges div.judges  {
+    background-image: url("../img/JUDGE.png"); 
+    background-color: rgb(249, 208,33); 
+    background-repeat: no-repeat;
+    background-size: 97% 97% ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-left: 4px;
+}
+#sponsor div.sponsor img,
+#judges div.judges img {
+    padding-right: 6px;
+    padding-left: 4px;
+    width: 100%;
+}
 
 .sponsor {
     margin-bottom: 40px;
@@ -160,4 +311,12 @@ section h3.section-subheading {
 #information td {
     border: none;
     border-bottom: 1px solid #dee2e6;
+}
+
+footer,
+footer div {
+    background: rgb(243, 199, 13);
+}
+footer a {
+    color: rgb(232, 149, 35);
 }

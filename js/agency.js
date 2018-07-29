@@ -47,6 +47,23 @@
     $(".navbar").removeClass("d-none");
   })
 
-  $("section:even").addClass("bg-light");
-  $("section#contact").removeClass("bg-light");
+  var lastScrollTop =0;
+  $(window).scroll(function () {
+      var st = $(this).scrollTop();
+      if (st > lastScrollTop){
+          // downscroll code
+        $('#mainNav').slideUp();
+      } else {
+          // upscroll code
+          $('#mainNav').slideDown();
+      }
+      lastScrollTop = st;
+
+    
+    // if ($(this).scrollTop() == 0) {
+    //     $('#mainNav').show();
+    // } else {
+    //   $('#mainNav').hide();
+    // }
+  });
 })(jQuery); // End of use strict
