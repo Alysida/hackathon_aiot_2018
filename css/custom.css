@@ -235,6 +235,7 @@ section h3.section-subheading {
     background-repeat: no-repeat;
 }
 
+#information div.infor,
 #sponsor div.sponsor,
 #judges div.judges  {
     background-image: url("../img/JUDGE.png"); 
@@ -251,11 +252,22 @@ section h3.section-subheading {
     padding-right: 12px;
     padding-left: 4px;
 }
+#information div.infor img,
 #sponsor div.sponsor img,
 #judges div.judges img {
     padding-right: 6px;
     padding-left: 4px;
     width: 100%;
+}
+
+#sponsor img {
+    width: 100%;
+
+}
+
+#information div.infor {
+    padding-right: 32px;
+
 }
 
 .sponsor {
@@ -303,7 +315,6 @@ section h3.section-subheading {
     margin-right: 10px;
     font-size: 100%
 }
-
 
 #information thead {
     background-color: #fbbd08;
