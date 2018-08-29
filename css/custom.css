@@ -1,4 +1,3 @@
-
 section{
     background: rgb(249, 208,33);
 }
@@ -86,24 +85,24 @@ div.header .img-card p.first-line{
     font-size: 32px;
 }
 div.img-card {
-    color: white;
-    background-image: url("../img/card.png"); 
-    background-color: rgb(249, 208,33); 
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 10px;
-    padding-right: 12px;
-    padding-left: 4px;
+	color: white;
+	background-image: url("../img/card.png");
+	background-color: rgb(249, 208,33);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 22px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-right: 12px;
+	padding-left: 4px;
 }
 div.img-card p{
-    margin: 0;  
-    line-height: 1.4em;
+	margin: 0;
+	line-height: 1.2em;
 }
 
 section.cover {
@@ -155,10 +154,10 @@ section.cover {
         font-size: 26px;
     }
     div.header div.img-card {
-        font-size: 17px;
-        min-width: 200px;   
-        margin-left: 10%;
-        margin-right: 10%;
+	font-size: 20px;
+	min-width: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
     }
     div.header div.title p.line3 {
         font-size: 29px;
