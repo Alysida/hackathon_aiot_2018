@@ -11,14 +11,14 @@ div {
 #mainNav .navbar-brand {
     color: #424242;
 }
-#mainNav .navbar-brand.active, 
-#mainNav .navbar-brand:active, 
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
     color: white;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, 
+#mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: white;
 }
@@ -33,12 +33,12 @@ div {
     padding-bottom: 8px;
 }
 @media (min-width: 992px)  {
-    #mainNav, 
+    #mainNav,
     #mainNav.navbar-shrink{
         padding-top: 0px;
         padding-bottom: 0px;
         background-color: rgb(249, 208,33);
-    } 
+    }
 }
 
 #mainNav .navbar-toggler {
@@ -60,7 +60,7 @@ div.header div.title {
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
-    text-align: center;    
+    text-align: center;
     padding-bottom: 30px;
 }
 
@@ -116,7 +116,7 @@ section.cover {
     max-width: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -164,7 +164,7 @@ section.cover {
     }
     div.header .img-card p.first-line {
         font-size: 25px;
-    }    
+    }
 }
 
 .cover.btn {
@@ -173,8 +173,8 @@ section.cover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.btn-primary:active, 
-.btn-primary:focus, 
+.btn-primary:active,
+.btn-primary:focus,
 .btn-primary:hover {
     background-color: #fe9c10 !important;
     border-color: #e8c222 !important;
@@ -237,8 +237,9 @@ section h3.section-subheading {
 #information div.infor,
 #sponsor div.sponsor,
 #judges div.judges  {
-    background-image: url("../img/JUDGE.png"); 
-    background-color: rgb(249, 208,33); 
+    background-image: url("../img/JUDGE.png");
+    background-color: rgb(249, 208,33);
+    font-family:"PMingLiU","Microsoft JhengHei","DFKai-sb";
     background-repeat: no-repeat;
     background-size: 97% 97% ;
     font-size: 18px;
@@ -256,7 +257,8 @@ section h3.section-subheading {
 #judges div.judges img {
     padding-right: 6px;
     padding-left: 4px;
-    width: 100%;
+    width: 90%;
+    border-radius:25%;
 }
 
 #sponsor img {
