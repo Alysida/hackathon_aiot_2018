@@ -330,6 +330,12 @@ section h3.section-subheading {
     border-bottom: 1px solid #dee2e6;
 }
 
+#registration .appl {
+    font-size: 40px;
+    color: black;
+    background: #7DCC2A;
+}
+
 footer,
 footer div {
     background: rgb(243, 199, 13);
